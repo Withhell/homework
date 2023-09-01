@@ -1,1 +1,2 @@
-# git init -> create git repository
+# git init -> create git repository 
+print('hello world')
