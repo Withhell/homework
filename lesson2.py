@@ -49,10 +49,50 @@
 
 #################
 
-print('merge conflict example')
-print('Hello!')
+# print('merge conflict example')
+# print('Hello!')
 
-print('Some text')
+# print('Some text')
 
-print('more text')
+# print('more text')
 
+##################
+# try:
+#     print('1. Start game\n2. Settings\n3. Saved games\n4. Exit')
+#     user_select = int(input('Enter menu number: '))
+
+#     # v1
+#     if user_select == 1:
+#         print('Game started')
+#     elif user_select == 2:
+#         print('Settings opened')
+#     elif user_select == 3:
+#         print('Saved games opened')
+#     elif user_select == 4:
+#         print("Exit...")
+#     else:
+#         print('incorrect menu item!')
+    
+#     # v2
+#     match user_select:
+#         case 1:
+#             print
+#         case 2:
+#             print
+#     ......
+#except Exception as e:
+#   print(f'Error: {e}')
+
+##################
+
+# Cycles
+
+# v1
+i = o
+
+while i < 10:
+    print(i, end = ' ')
+    i += 1
+
+
+print('test')
