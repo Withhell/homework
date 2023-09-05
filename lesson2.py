@@ -49,4 +49,8 @@
 
 #################
 
+print('Hello!')
 
+print('Some text')
+
+print('more text')
