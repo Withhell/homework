@@ -49,4 +49,8 @@
 
 #################
 
-print('merge conflict example')
+print('merge conflict example')print('Hello!')
+
+print('Some text')
+
+print('more text')
