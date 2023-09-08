@@ -88,11 +88,63 @@
 # Cycles
 
 # v1
-i = o
+# i = 0
 
-while i < 10:
-    print(i, end = ' ')
-    i += 1
+# while i < 10:
+#     print(i, end = " ")
+#     i += 1
 
 
-print('test')
+# print('test')
+
+# v2
+
+# i = 12
+
+# while True:
+#     print(i)
+#     i += 2
+
+# v3
+# i = 0
+
+# while True:
+#     if i == 5:
+#         print('continue...')
+#         i += 1
+#         continue
+
+#     if i >= 10:
+#         print('break....')
+#         break
+
+#     print(i)
+#     i += 1
+
+
+############################
+
+# count = 0
+# sum = 9
+# try:
+#     while True:
+#         try:
+#             user_number = int(input('Enter number: '))
+            
+#             if user_number == 0 and count == 0:
+#                 print('end....')
+#                 continue
+
+#             if user_number == 0:
+#                 print('end...')
+#                 break
+
+#             sum += user_number
+#             count += 1
+#         except ValueError as e:
+#             print('Enter number only')
+            
+#     print(f'Sum: {sum}')
+#     print(f'Avg: {sum / count}')
+# except Exception as e:
+#     print(e)
