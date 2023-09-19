@@ -24,7 +24,7 @@ except ValueError as e:
 except Exception as e:
     print(f"Error: {e}")
 
-# Task 2
+# # Task 2
 try:
     n1 = int(input("Enter 1st number: "))
     n2 = int(input("Enter 2nd number: "))
