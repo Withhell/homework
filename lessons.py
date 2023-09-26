@@ -197,3 +197,65 @@
 
 #############
 
+# import random
+
+# from random import *
+
+# numbers = [randint(1, 30) for _ in range(10)]
+
+# print(numbers)
+
+# def is_simple(number: int) -> bool:
+#     if number < 2:
+#         return False
+    
+#     for num in range(2, number):
+#         if number % num == 0:
+#             return False
+    
+#     return True
+
+# def get_simple_numbers(nums: list) -> None:
+#     counter = 0
+#     for number in nums:
+#         if is_simple(number):
+#             counter += 1
+#             print(number)
+            
+#     return counter
+
+##########
+
+# def hello(): print("Hello")
+
+# print(hello)
+# message = hello
+# print(message)
+
+# hello()
+# message()
+
+# def sub(a, b): return a - b
+
+# def add(a, b): return a + b
+
+# def multi(a, b): return a * b
+
+# def division(a, b): return a / b
+
+# message = lambda: print("Hello world!")
+# message()
+
+# square = lambda side_1, side_2: side_1 * side_2
+# print(square(2, 4))
+
+# def calculate(a, b, math_operator) -> None:
+#     print(f"Result: {math_operator(a, b)}")
+
+# calculate(2, 5, lambda n1, n2: n1 + n2)
+# calculate(2, 5, lambda n1, n2: n1 / n2)
+
+
+
+
+
