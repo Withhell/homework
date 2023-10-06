@@ -14,6 +14,7 @@ with open('homework.txt', 'r') as test:
         for i in range(len(text_list)):
             if len(text_list[i]) >= 7:
                 home.write(text_list[i])
+                home.write(", ")
 
 print(f"Number of words in text: {len(text_list)}")
 
