@@ -5,11 +5,15 @@ with open('homework.txt', 'w') as test:
     )
 with open('homework.txt', 'r') as test:
     text = test.readline()
-    text = text.replace(",", "")
-    text = text.replace("?", "")
-    text = text.replace("!", "")
-    text = text.replace(".", "")
+    punc_list = ['!', '(', ')', '-', '[', ']', '{', '}', ';', ':', '\'', '\"', '\\', ',', '<', '>', '.', '/', '?', '@', '#', '$', '%', '^', '&', '*', '_', '~']
+    for i in punc_list:
+        text.replace(i, "")
+    # text = text.replace(",", "")
+    # text = text.replace("?", "")
+    # text = text.replace("!", "")
+    # text = text.replace(".", "")
     text_list = text.split(" ")
+    print(text_list)
     with open('7 letters.txt', 'w') as home:
         for i in range(len(text_list)):
             if len(text_list[i]) >= 7:
