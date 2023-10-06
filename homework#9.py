@@ -24,6 +24,8 @@ with open('optional.txt', "w") as file:
             "Or to take arms against a sea of troubles, And by opposing end them? To die: to sleep; No more; and by a sleep to say we end" \
             "The heart-ache and the thousand natural shocks That flesh is heir to, 'tis a consummation Devoutly to be wish'd. To die, to sleep"
     cursed_word = 'die'
+    count = text.count(cursed_word)
     star = '*' * len(cursed_word)
     txt = text.replace('die', star)
     file.write(txt)
+    print(count)
